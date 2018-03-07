@@ -15,8 +15,8 @@ body {font-family: 'Microsoft YaHei'; font-size: 14px; color: #222; background: 
 .catalog .unit .title {font-size: 16px; font-weight: 700; line-height: 30px; height: 30px; padding-left: 15px; background: #404040; color: #fff;text-shadow: 1px 1px 2px rgba(0,0,0,.3)}
 .catalog .unit li {line-height: 20px; position: relative;height: 20px; padding: 0 50px 0 30px;/*text-shadow: 1px 1px 3px rgba(0,0,0,.5);*/}
 .catalog .unit li>span{display: inline-block;white-space: nowrap; text-overflow: ellipsis;  overflow: hidden; }
-.catalog .unit li .sub{position: absolute;width:80%;left: 70%;top: 0;background: #666;border-radius:0 0 3px 3px;z-index:1;display: none;}
-.catalog .unit li .sub span{display: block;height: 20px;padding-left: 10px;line-height: 20px;font-size:14px;}
+.catalog .unit li .sub{position: absolute;width:80%;left: 70%;top: 0;background: #666;border-radius:0 0 3px 3px;z-index:1;display: none;max-height:400px;overflow-y:auto;}
+.catalog .unit li .sub span{display: block;height: 20px;padding-left: 10px;line-height: 20px;font-size:14px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
 .catalog .unit li .sub span:hover{background: #ccc;color:#000;}
 .catalog .unit li:before {position: absolute; top: 50%; left: 20px; display: block; width: 4px; height: 4px; margin-top: -3px; content: ''; border-radius: 50%; background: #000; }
 .catalog .unit li:hover {color: #fff; background: #aaa; text-shadow: 1px 1px 2px rgba(0,0,0,.3);}
